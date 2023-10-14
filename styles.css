@@ -1,0 +1,54 @@
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la barra de búsqueda */
+#searchInput {
+    width: 50%;
+    padding: 8px; /* Ajusta el valor de padding para hacerla más pequeña */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Ajusta el tamaño de fuente */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la lista de PDFs */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para los elementos de la lista de PDFs */
+li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Estilo para los enlaces a los PDFs */
+a {
+    color: #0074d9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para los enlaces a los PDFs al pasar el cursor sobre ellos */
+a:hover {
+    text-decoration: underline;
+}
